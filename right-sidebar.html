@@ -1,0 +1,238 @@
+<!DOCTYPE HTML>
+<!--
+	Horizons by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Database Search</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+	<body class="left-sidebar">
+
+		<!-- Header -->
+			<div id="header" class="pageheader">
+				<div class="container">
+						
+					<!-- Logo -->
+					
+					<!-- Nav -->
+						<nav id="nav" class="pagenav">
+							<ul>
+								<li><a href="index.html"><h4>MyCPS</h4></a></li>
+								<li><a href="right-sidebar.html">Scholarships</a></li>
+								<li><a href="right-sidebar.html">Summer Programs/Internships</a></li>
+								<li><a href="right-sidebar.html">Groups</a></li>
+								<li><a href="no-sidebar.html"> Login </a></li>
+							</ul>
+						</nav>
+
+				</div>
+			</div>
+
+		<!-- Main -->
+			<div id="main" class="wrapper style1">
+				<div class="container">
+					<div class="row">
+					
+						<!-- Sidebar -->
+						<div id="sidebar" class="4u sidebar">
+							<section>
+								<header class="major infoinput">
+									<h2>Information</h2>
+								</header>
+								<div class="row half">
+									<section class="8u">
+										<div><b>Scores</b></div>
+										<input type="GPA" placeholder="Unweighted GPA">
+        								<input type="ACT" placeholder="ACT Composite Score">
+										<input type="SAT" placeholder="SAT Combined Score">
+										<div><b>Race</b></div>
+										
+
+									    <label for="race-one" class="pure-checkbox">
+									        <input id="race-one" type="checkbox" value="afr">
+									        African-American
+									    </label>
+									    <br>
+									    <label for="race-two" class="pure-checkbox">
+									    <input id="race-two" type="checkbox" value="aspf">
+									        Asian/Pacific Islander
+									    </label>
+									    <br>
+									    <label for="race-three" class="pure-checkbox">
+									        <input id="race-three" type="checkbox" value="hisp">
+									        Hispanic
+									    </label>
+									    <br>
+									    <label for="race-four" class="pure-checkbox">
+									    <input id="race-four" type="checkbox" value="whit">
+									        White
+									    </label>
+									    <br>
+
+									    <div><b>Grade Level</b></div>
+									    <label for="grade-one" class="pure-radio">
+									        <input id="grade-one" type="radio" value="9">
+									        9th
+									    </label>
+									    <label for="grade-two" class="pure-radio">
+									        <input id="grade-two" type="radio" value="10">
+									        10th
+									    </label>
+									    <br>
+									    <label for="grade-three" class="pure-radio">
+									        <input id="grade-three" type="radio" value="11">
+									        11th
+									    </label>
+									    <label for="grade-four" class="pure-radio">
+									        <input id="grade-four" type="radio" value="12">
+									        12th
+									    </label>
+									    <br>
+
+									    <div><b>Gender</b></div>
+
+									    <label for="gender-one" class="pure-radio">
+									        <input id="gender-one" type="radio" value="Male">
+									        Male
+									    </label>
+									    <br>
+									    <label for="gender-one" class="pure-radio">
+									        <input id="gender-one" type="radio" value="Fem">
+									        Female
+									    </label>
+									    <br>
+									    <label for="gender-one" class="pure-radio">
+									        <input id="gender-one" type="radio" value="other">
+									        Other
+									    </label>
+									    <br>
+									    <button type="submit" class="search">Search</button>
+									    <button type = "reset"class="reset">Reset</button>
+									    <script type="text/javascript">
+									    	$(".search").click(function(){
+									    		$(".resultinfo").toggleClass("hidden");
+									    	})
+									    </script>
+									</section>
+								</div>
+							</section>
+							<section>
+								
+							</section>
+						</div>
+						
+						<!-- Content -->
+						<div id="content" class="8u skel-cell-important">
+							<section>
+								<header class="major" id="results">
+									<h2>Matching Results</h2>
+									<p class="resultinfo hidden" >
+										Introduction to Engineering Program at Notre Dame
+										<br>
+										Matches for GPA, ACT, SAT, Grade level
+										<a href="http://iep.nd.edu/index.html">link to site</a>
+									</p>
+									<br>
+									<p class="resultinfo hidden" >
+										Duke University: Talent Identification Program
+										<br>
+										Matches for GPA, ACT
+										<a href="http://www.tip.duke.edu/">link to site</a>
+									</p>
+									<br>
+									<p class="resultinfo hidden">
+										Smith College Summer Science Program
+										<br>
+										Matches for GPA, ACT, Gender
+										<a href="http://www.smith.edu/summerprograms/ssep">link to site</a>
+									</p>
+								</header>
+							</section>
+						</div>
+					
+					</div>
+				</div>
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+				<div class="container">
+
+					<!-- Lists -->
+						<div class="row">
+							<div class="8u">
+								<section>
+									<header class="major">
+										<h2>Donec dictum metus</h2>
+										<span class="byline">Quisque semper augue mattis wisi maecenas ligula</span>
+									</header>
+									<div class="row">
+										<section class="6u">
+											<ul class="default">
+												<li><a href="#">Pellentesque elit non gravida blandit.</a></li>
+												<li><a href="#">Lorem ipsum dolor consectetuer elit.</a></li>
+												<li><a href="#">Phasellus nibh pellentesque congue.</a></li>
+												<li><a href="#">Cras vitae metus aliquam  pharetra.</a></li>
+											</ul>
+										</section>
+										<section class="6u">
+											<ul class="default">
+												<li><a href="#">Pellentesque elit non gravida blandit.</a></li>
+												<li><a href="#">Lorem ipsum dolor consectetuer elit.</a></li>
+												<li><a href="#">Phasellus nibh pellentesque congue.</a></li>
+												<li><a href="#">Cras vitae metus aliquam  pharetra.</a></li>
+											</ul>
+										</section>
+									</div>
+								</section>
+							</div>
+							<div class="4u">
+								<section>
+									<header class="major">
+										<h2>Donec dictum metus</h2>
+										<span class="byline">Mattis wisi maecenas ligula</span>
+									</header>
+									<ul class="contact">
+										<li>
+											<span class="address">Address</span>
+											<span>1234 Somewhere Road #4285 <br />Nashville, TN 00000</span>
+										</li>
+										<li>
+											<span class="mail">Mail</span>
+											<span><a href="#">someone@untitled.tld</a></span>
+										</li>
+										<li>
+											<span class="phone">Phone</span>
+											<span>(000) 000-0000</span>
+										</li>
+									</ul>	
+								</section>
+							</div>
+						</div>
+
+					<!-- Copyright -->
+						<div class="copyright">
+							Design: <a href="http://templated.co">TEMPLATED</a> Images: <a href="http://unsplash.com">Unsplash</a> (<a href="http://unsplash.com/cc0">CC0</a>)
+						</div>
+
+				</div>
+			</div>
+
+	</body>
+</html>
